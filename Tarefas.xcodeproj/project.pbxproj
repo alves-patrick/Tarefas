@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694667B022811A35EA818EBE /* Pods_TarefasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B136F6A653A2F8E1504447C /* Pods_TarefasTests.framework */; };
+		77A6489B1AC09FA6FC5C0EF8 /* Pods_Tarefas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28B40526DDA04A9F5A6FB92 /* Pods_Tarefas.framework */; };
 		7DC372B62B6D7026001ABD39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC372B52B6D7026001ABD39 /* AppDelegate.swift */; };
 		7DC372B82B6D7026001ABD39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC372B72B6D7026001ABD39 /* SceneDelegate.swift */; };
 		7DC372BA2B6D7026001ABD39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC372B92B6D7026001ABD39 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		7DC372CD2B6D7029001ABD39 /* TarefasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC372CC2B6D7029001ABD39 /* TarefasTests.swift */; };
 		7DC372D72B6D7029001ABD39 /* TarefasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC372D62B6D7029001ABD39 /* TarefasUITests.swift */; };
 		7DC372D92B6D7029001ABD39 /* TarefasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC372D82B6D7029001ABD39 /* TarefasUITestsLaunchTests.swift */; };
+		7DC372E62B6D70FF001ABD39 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 7DC372E52B6D70FE001ABD39 /* Sources */; };
+		A63B38E531066A9C9146B482 /* Pods_Tarefas_TarefasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7188BA641D306CD77AEA148 /* Pods_Tarefas_TarefasUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26B937286C108C82C140AC6F /* Pods-TarefasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TarefasTests.debug.xcconfig"; path = "Target Support Files/Pods-TarefasTests/Pods-TarefasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		416ED34D4DBCB316141B2B16 /* Pods-Tarefas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarefas.debug.xcconfig"; path = "Target Support Files/Pods-Tarefas/Pods-Tarefas.debug.xcconfig"; sourceTree = "<group>"; };
+		668056C3A92717F3DFD658CE /* Pods-Tarefas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarefas.release.xcconfig"; path = "Target Support Files/Pods-Tarefas/Pods-Tarefas.release.xcconfig"; sourceTree = "<group>"; };
 		7DC372B22B6D7026001ABD39 /* Tarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarefas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC372B52B6D7026001ABD39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DC372B72B6D7026001ABD39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		7DC372D22B6D7029001ABD39 /* TarefasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarefasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC372D62B6D7029001ABD39 /* TarefasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasUITests.swift; sourceTree = "<group>"; };
 		7DC372D82B6D7029001ABD39 /* TarefasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DC372E52B6D70FE001ABD39 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
+		8B136F6A653A2F8E1504447C /* Pods_TarefasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TarefasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3D0C5A6F69A0044E0FE405 /* Pods-Tarefas-TarefasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarefas-TarefasUITests.release.xcconfig"; path = "Target Support Files/Pods-Tarefas-TarefasUITests/Pods-Tarefas-TarefasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE3B9B436118F5B46509620B /* Pods-TarefasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TarefasTests.release.xcconfig"; path = "Target Support Files/Pods-TarefasTests/Pods-TarefasTests.release.xcconfig"; sourceTree = "<group>"; };
+		C28B40526DDA04A9F5A6FB92 /* Pods_Tarefas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tarefas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7188BA641D306CD77AEA148 /* Pods_Tarefas_TarefasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tarefas_TarefasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27177B023F9477469C59F18 /* Pods-Tarefas-TarefasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarefas-TarefasUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tarefas-TarefasUITests/Pods-Tarefas-TarefasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A6489B1AC09FA6FC5C0EF8 /* Pods_Tarefas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694667B022811A35EA818EBE /* Pods_TarefasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63B38E531066A9C9146B482 /* Pods_Tarefas_TarefasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				7DC372CB2B6D7029001ABD39 /* TarefasTests */,
 				7DC372D52B6D7029001ABD39 /* TarefasUITests */,
 				7DC372B32B6D7026001ABD39 /* Products */,
+				91A02169C00B0182D3684443 /* Pods */,
+				D5DCF2D46E14548080CCF98F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 		7DC372B42B6D7026001ABD39 /* Tarefas */ = {
 			isa = PBXGroup;
 			children = (
+				7DC372E52B6D70FE001ABD39 /* Sources */,
 				7DC372B52B6D7026001ABD39 /* AppDelegate.swift */,
 				7DC372B72B6D7026001ABD39 /* SceneDelegate.swift */,
 				7DC372B92B6D7026001ABD39 /* ViewController.swift */,
@@ -127,6 +147,30 @@
 			path = TarefasUITests;
 			sourceTree = "<group>";
 		};
+		91A02169C00B0182D3684443 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				416ED34D4DBCB316141B2B16 /* Pods-Tarefas.debug.xcconfig */,
+				668056C3A92717F3DFD658CE /* Pods-Tarefas.release.xcconfig */,
+				D27177B023F9477469C59F18 /* Pods-Tarefas-TarefasUITests.debug.xcconfig */,
+				AD3D0C5A6F69A0044E0FE405 /* Pods-Tarefas-TarefasUITests.release.xcconfig */,
+				26B937286C108C82C140AC6F /* Pods-TarefasTests.debug.xcconfig */,
+				BE3B9B436118F5B46509620B /* Pods-TarefasTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D5DCF2D46E14548080CCF98F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C28B40526DDA04A9F5A6FB92 /* Pods_Tarefas.framework */,
+				C7188BA641D306CD77AEA148 /* Pods_Tarefas_TarefasUITests.framework */,
+				8B136F6A653A2F8E1504447C /* Pods_TarefasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DC372DC2B6D7029001ABD39 /* Build configuration list for PBXNativeTarget "Tarefas" */;
 			buildPhases = (
+				25BBAE11E4B38C2D5BD31CAC /* [CP] Check Pods Manifest.lock */,
 				7DC372AE2B6D7026001ABD39 /* Sources */,
 				7DC372AF2B6D7026001ABD39 /* Frameworks */,
 				7DC372B02B6D7026001ABD39 /* Resources */,
+				0B57CBB47BCA373A3FC85896 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DC372DF2B6D7029001ABD39 /* Build configuration list for PBXNativeTarget "TarefasTests" */;
 			buildPhases = (
+				CF8037EE7CBE95ECD90FFE6F /* [CP] Check Pods Manifest.lock */,
 				7DC372C42B6D7029001ABD39 /* Sources */,
 				7DC372C52B6D7029001ABD39 /* Frameworks */,
 				7DC372C62B6D7029001ABD39 /* Resources */,
@@ -169,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DC372E22B6D7029001ABD39 /* Build configuration list for PBXNativeTarget "TarefasUITests" */;
 			buildPhases = (
+				0F35EF51BD5E4DD65CB481FD /* [CP] Check Pods Manifest.lock */,
 				7DC372CE2B6D7029001ABD39 /* Sources */,
 				7DC372CF2B6D7029001ABD39 /* Frameworks */,
 				7DC372D02B6D7029001ABD39 /* Resources */,
+				EDBA36E16F2C0FEB2C639EE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +283,7 @@
 				7DC372C22B6D7029001ABD39 /* LaunchScreen.storyboard in Resources */,
 				7DC372BF2B6D7029001ABD39 /* Assets.xcassets in Resources */,
 				7DC372BD2B6D7027001ABD39 /* Main.storyboard in Resources */,
+				7DC372E62B6D70FF001ABD39 /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B57CBB47BCA373A3FC85896 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tarefas/Pods-Tarefas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tarefas/Pods-Tarefas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tarefas/Pods-Tarefas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F35EF51BD5E4DD65CB481FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tarefas-TarefasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25BBAE11E4B38C2D5BD31CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tarefas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF8037EE7CBE95ECD90FFE6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TarefasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBA36E16F2C0FEB2C639EE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tarefas-TarefasUITests/Pods-Tarefas-TarefasUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tarefas-TarefasUITests/Pods-Tarefas-TarefasUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tarefas-TarefasUITests/Pods-Tarefas-TarefasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DC372AE2B6D7026001ABD39 /* Sources */ = {
@@ -437,6 +590,7 @@
 		};
 		7DC372DD2B6D7029001ABD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416ED34D4DBCB316141B2B16 /* Pods-Tarefas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,8 +602,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,14 +612,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Alves.Patrick.Tarefas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7DC372DE2B6D7029001ABD39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668056C3A92717F3DFD658CE /* Pods-Tarefas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,8 +636,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,14 +646,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Alves.Patrick.Tarefas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7DC372E02B6D7029001ABD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B937286C108C82C140AC6F /* Pods-TarefasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +679,7 @@
 		};
 		7DC372E12B6D7029001ABD39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3B9B436118F5B46509620B /* Pods-TarefasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +700,7 @@
 		};
 		7DC372E32B6D7029001ABD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27177B023F9477469C59F18 /* Pods-Tarefas-TarefasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +719,7 @@
 		};
 		7DC372E42B6D7029001ABD39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3D0C5A6F69A0044E0FE405 /* Pods-Tarefas-TarefasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

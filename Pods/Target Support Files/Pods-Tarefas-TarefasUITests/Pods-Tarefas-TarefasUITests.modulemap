@@ -1,0 +1,6 @@
+framework module Pods_Tarefas_TarefasUITests {
+  umbrella header "Pods-Tarefas-TarefasUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
